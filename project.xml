@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<project type="activity">
+    <name>Onboard Show/Hide Interface</name>
+    <description>
+This activity will accept a few messages on a WebSocket interface, and turn them into system commands for Showing and Hiding Onboard.
+    </description>
+
+    <identifyingName>com.endpoint.lg.onboard</identifyingName>
+    <version>1.0.0</version>
+
+    <deployments>
+        <deployment type="testdeploy" location="${deployment.test.deploy}" />
+        <deployment type="testimport" location="${deployment.test.import}" />
+    </deployments>
+</project>
